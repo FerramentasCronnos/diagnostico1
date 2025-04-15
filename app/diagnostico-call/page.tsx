@@ -137,7 +137,7 @@ export default function DiagnosticoCall() {
         variant: "default",
       })
 
-      router.push("/organograma")
+      router.push("/departamentos")
     } catch (error) {
       console.error("Erro ao enviar formulário:", error)
       toast({
